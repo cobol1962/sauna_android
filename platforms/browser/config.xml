@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.saunacontrol.saunacontroller" version="1.0.0" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>SENSUM CONTROLLER</name>
+    <name>SAUNA CONTROLLER</name>
     <description>
         Keep your szauna under control from anywhere.
     </description>
@@ -25,5 +25,6 @@
     <splash platform="android" qualifier="land-hdpi" src="res/screen/android/Saunaicon2.jpg" />
     <splash platform="android" qualifier="land-xhdpi" src="res/screen/android/Saunaicon2.jpg" />
     <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-targetSdkVersion" value="28" />
     <preference name="EnableViewportScale" value="true" />
 </widget>
